@@ -4,9 +4,9 @@ var aCloseMenu = $(".hamburger-menu>a")
 
 
 aOpenMenu.click(function() {
-    $(".hamburger-menu").show();
+    $(".hamburger-menu").show("slow");
 });
 
 aCloseMenu.click(function() {
-    $(".hamburger-menu").hide();
+    $(".hamburger-menu").hide("slow");
 });
